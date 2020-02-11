@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Congress 113 - House</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet" />
+    <script>
+      var page = "datas";
+    </script>
+  </head>
+
+  <body class="container">
+    <div class="row titulo align-items-center">
+      <div class="col-6 d-inline-flex">
+        <img class="loguito" src="images/lupita.jpg" alt="" />
+        <h1>TGIF</h1>
+      </div>
+      <div class="col-6">
+        <div class="float-right align-text-bottom">
+          <img src="images/sobre-cerrado.png" alt="" class="logomail" />
+          <a href="#"><u>info@tgif.net</u></a>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Congres 113
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="house-data.html">House</a>
+              <a class="dropdown-item" href="senate-data.html">Senate</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Attendance
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="house-attendance-statistics.html">House</a>
+              <a class="dropdown-item" href="senate-attendance-statistics.html">Senate</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Party Loyalty
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="house-party-loyalty-statistics.html">House</a>
+              <a class="dropdown-item" href="senate-party-loyalty-statistics.html">Senate</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br />
+    <div class="texto row">
+      <div class="col-7">
+        <h2>Congressmen</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur consectetur esse dignissimos
+          nesciunt, porro magnam! Corporis quidem quo, veritatis officiis unde quae sed accusamus cupiditate, sint
+          nemo impedit porro?
+        </p>
+      </div>
+      <div class="col-5"></div>
+    </div>
+    <br />
+    <table class="table table2 table-responsive table-borderless">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Party</th>
+          <th>State</th>
+          <th>Years in Office</th>
+          <th>% Votes w/ Party</th>
+        </tr>
+      </thead>
+      <tbody id="datas"></tbody>
+    </table>
+    <div class="pie-pagina">
+      <p>© 2016 TGIF | All Rights Reserved</p>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/pro-congress-113-house.js"></script>
+  <script src="js/main.js"></script>
+</html>
